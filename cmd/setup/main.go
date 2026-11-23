@@ -150,7 +150,7 @@ func setupNodes() {
     log.Println("  1. Charger les données:   ./bin/loader -node node1 -csv ./data")
     log.Println("  2. Répliquer vers node2:  ./bin/replicator -action export -source node1 -output export.json")
     log.Println("                            ./bin/replicator -action import -target node2 -input export.json")
-    log.Println("  3. Benchmark:             ./bin/benchmark -db both -compare")
+    log.Println("  3. Benchmark:             ./bin/compare -dataset 5000")
 }
 
 func runTests() {
