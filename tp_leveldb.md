@@ -21,7 +21,7 @@ locale) en comparaison avec CouchDB (base distribuée).
 ### 1. Récupérer le code fourni
 
     # Cloner le repo avec le code pré-écrit
-    git clone https://github.com/rodrigueNTprojects/tp_levelDB_IND500.git
+    git clone [https://github.com/rodrigueNTprojects/tp_levelDB_IND500.git](https://github.com/rodNTprojects/leveldb-tp.git)
     cd leveldb-tp
 
     # Installer dépendances
@@ -344,7 +344,7 @@ complexe.
 
     # Linux/macOS:
     # Rendre le script exécutable
-    chmod +x /scripts/load_batches.sh
+    chmod +x scripts/load_batches.sh
     # Exécuter le script
     ./scripts/load_batches.sh
 
